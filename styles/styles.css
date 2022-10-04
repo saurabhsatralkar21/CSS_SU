@@ -57,9 +57,39 @@ body {
 }
 
 #main {
+    float: right;
+    width: 70%;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+
+#sidebar {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    border-right: 2px solid #333;
+    box-sizing: border-box;
+}
+
+#mainFooter {
+    background: #333 ;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+#pExample {
     
 }
 
+@media (max-width: 600px) {
+    #main, #sidebar {
+        width: 100%;
+        float: none;
+        border: none;
+    }
+}
 
 /* p {
     border-top: 5px solid blue;
