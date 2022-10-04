@@ -2,11 +2,18 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     line-height: 1.6em;
+    margin: 0;
 }
 
-h1 {
-    color: green;
-   
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#mainHeader {
+    background: #333;
+    color: white;
 }
 
 p {
