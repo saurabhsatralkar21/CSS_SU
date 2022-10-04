@@ -16,6 +16,32 @@ body {
     color: white;
 }
 
+#mainNav {
+    background: #CCC;
+    color: black;
+}
+
+#mainNav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+#mainNav li {
+    display: inline;
+    padding: 5px 10px;
+}
+
+#mainNav a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#mainNav li:hover {
+    background: #aaa;
+}
+
 p {
     border-top: 5px solid blue;
     border-right: 2px dotted green;
