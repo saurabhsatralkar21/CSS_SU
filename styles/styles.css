@@ -42,7 +42,26 @@ body {
     background: #aaa;
 }
 
-p {
+#jumbo {
+    background-image: url('/CSS/images/back.png');
+    background-position: center center;
+    min-height: 300px;
+    text-align: center;
+}
+
+#jumbo h1 {
+    color: white;
+    font-size: 45px;
+    padding-top: 20px;
+    line-height: 1.6em;
+}
+
+#main {
+    
+}
+
+
+/* p {
     border-top: 5px solid blue;
     border-right: 2px dotted green;
     border-bottom: 5px dashed red;
@@ -60,4 +79,4 @@ p {
     padding: 20px;
 
     margin-top: 40px;
-}
+} */
